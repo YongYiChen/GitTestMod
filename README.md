@@ -26,10 +26,20 @@
 
 
 运行完成后，在右侧选项卡中点击"Gradle",会出现一个弹窗
+
+![5.png](README文件中的图片/5.png)
+
 选择Tasks（点击左侧小三角可展开）——forgegradle runs——runClient, 双击"runClient"，这里可以运行游戏，以后要测试mod功能都通过这里启动游戏。
+
+![6.png](README文件中的图片/6.png)
+
 等待几十秒后，会出现游戏窗口
 
+![7.png](README文件中的图片/7.png)
+
 点击游戏菜单中的"Mods",即可查看所有已装载的Mod
-此处就可以看到本项目自带的mod，即“Example Mod”
+此处就可以看到本项目自带的mod，即“Example Mod”，这里会显示一些有关Mod的信息，如版本，作者，致谢，前置mod等等
+
+![8.png](README文件中的图片/8.png)
 
 forge-mdk环境配置及运行介绍至此结束.
