@@ -1,2 +1,5 @@
-# GitTestMod
-This is an test Mod for multi-programming on github.
+# 原始版本
+这个分支存放的是本项目的初始版本，包含一个exampleMod，仅用于在本地初始化项目。
+
+.zip后缀的是压缩版本，需要解压
+也可以直接下载解压好的文件夹版本，随后使用IDEA打开文件目录下的"Build.gradle"文件。
