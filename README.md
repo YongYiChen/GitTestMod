@@ -6,7 +6,7 @@
 
 # 使用教程
 1.使用IDEA打开文件目录下的"Build.gradle"文件。
-[1.png](README文件中的图片/1.png)
+![1.png](README文件中的图片/1.png)
 2.打开后选择“Open as project”
 3.如果出现弹出提示是否"trust"（即信任），请选择trust
 
