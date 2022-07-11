@@ -21,7 +21,7 @@ modId="tutorialmod" #mandatory
 # see the associated build.gradle script for how to populate this completely automatically during a build
 version="${file.jarVersion}" #mandatory
  # A display name for the mod
-displayName="Tutorial Mod Changed By Git" #mandatory
+displayName="TestChangeMod" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -31,9 +31,9 @@ logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
 credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI
-authors="YongYi Chen" #optional
+authors="YongYi Chen, Gordon227, Eric" #optional
 # The description text for the mod (multi line!) (#mandatory)
-description='''这是一个用于测试多人开发的Mod'''
+description='''这是一个用于测试多人开发的Mod, 这个文件被git修改过,lightning is of dog class'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.tutorialmod]] #optional
     # the modid of the dependency
