@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 @Mod(TutorialMod.MOD_ID)
 public class TutorialMod {
     public static final String MOD_ID = "tutorialmod";
-    // Directly reference a slf4j logger
+    // Directly reference a logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public TutorialMod() {
