@@ -15,7 +15,6 @@ import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.modding.tutorialMod.item.ModItems;
-import net.modding.tutorialMod.itemDiamondIngots.itemDiamondIngots;
 import org.slf4j.Logger;
 
 import java.util.stream.Collectors;
@@ -31,7 +30,6 @@ public class TutorialMod {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
-        itemDiamondIngots.register(eventBus);
 
         eventBus.addListener(this::setup);
 

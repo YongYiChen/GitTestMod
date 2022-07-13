@@ -31,7 +31,7 @@ logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
 credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI
-authors="YongYi Chen, Gordon227, Eric" #optional
+authors="YongYi Chen, Gordon227, SB" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''这是一个用于测试多人开发的Mod, 这个文件被git修改过,lightning is of dog class, changed by Eric.'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
