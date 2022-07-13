@@ -1,5 +1,6 @@
 {
   "item.tutorialmod.obsidianingot": "ObsidianIngot",
   "item.tutorialmod.titaniumingot": "titaniumingot",
-  "itemGroup.tutorialtab": "TutorialModTab"
+  "itemGroup.tutorialtab": "TutorialModTab",
+  "item.tutorialmod.bitcoin": "BTC2002"
 }

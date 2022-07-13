@@ -16,6 +16,7 @@ import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.modding.tutorialMod.item.ModItems;
 import net.modding.tutorialMod.item2.titaniumingot;
+import net.modding.tutorialMod.item_bitcoin.Bitcoin;
 import org.slf4j.Logger;
 
 import java.util.stream.Collectors;
@@ -30,8 +31,12 @@ public class TutorialMod {
     public TutorialMod() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        //注册黑曜石锭
         ModItems.register(eventBus);
+        //注册钛合金锭
         titaniumingot.register(eventBus);
+        //注册比特币 [doge]
+        Bitcoin.register(eventBus);
 
         eventBus.addListener(this::setup);
 
