@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " * "
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:chen"
+    },
+    "*": {
+      "item": "tutorialmod:titaniumingot"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:fastsword"
+  }
+}
