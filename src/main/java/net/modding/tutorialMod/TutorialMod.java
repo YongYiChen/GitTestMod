@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.modding.tutorialMod.fast_sword.fastSword;
 import net.modding.tutorialMod.item.ModItems;
 import net.modding.tutorialMod.item2.titaniumingot;
 import net.modding.tutorialMod.item_bitcoin.Bitcoin;
@@ -40,6 +41,8 @@ public class TutorialMod {
         Bitcoin.register(eventBus);
         //注册陈永逸 [bushi]
         Chen.register(eventBus);
+        //注册快男剑 [bushi]
+        fastSword.register(eventBus);
 
         eventBus.addListener(this::setup);
 
