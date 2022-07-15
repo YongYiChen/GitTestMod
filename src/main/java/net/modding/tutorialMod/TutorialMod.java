@@ -17,6 +17,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.modding.tutorialMod.item.ModItems;
 import net.modding.tutorialMod.item2.titaniumingot;
 import net.modding.tutorialMod.item_bitcoin.Bitcoin;
+import net.modding.tutorialMod.itemchen.Chen;
 import org.slf4j.Logger;
 
 import java.util.stream.Collectors;
@@ -37,6 +38,8 @@ public class TutorialMod {
         titaniumingot.register(eventBus);
         //注册比特币 [doge]
         Bitcoin.register(eventBus);
+        //注册陈永逸 [bushi]
+        Chen.register(eventBus);
 
         eventBus.addListener(this::setup);
 
