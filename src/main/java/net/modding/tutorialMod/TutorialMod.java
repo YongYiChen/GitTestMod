@@ -45,6 +45,7 @@ public class TutorialMod {
         //注册快男剑 [bushi]
         fastSword.register(eventBus);
 
+        //注册钛合金块
         TitaniumBlock.register(eventBus);
 
         eventBus.addListener(this::setup);
