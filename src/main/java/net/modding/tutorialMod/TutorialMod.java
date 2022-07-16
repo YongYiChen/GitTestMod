@@ -19,6 +19,7 @@ import net.modding.tutorialMod.item.ModItems;
 import net.modding.tutorialMod.item2.titaniumingot;
 import net.modding.tutorialMod.item_bitcoin.Bitcoin;
 import net.modding.tutorialMod.itemchen.Chen;
+import net.modding.tutorialMod.titaniumBlock.TitaniumBlock;
 import org.slf4j.Logger;
 
 import java.util.stream.Collectors;
@@ -43,6 +44,8 @@ public class TutorialMod {
         Chen.register(eventBus);
         //注册快男剑 [bushi]
         fastSword.register(eventBus);
+
+        TitaniumBlock.register(eventBus);
 
         eventBus.addListener(this::setup);
 
