@@ -23,7 +23,7 @@ public class TitaniumBlock {
             DeferredRegister.create(ForgeRegistries.BLOCKS, TutorialMod.MOD_ID);
 
     public static final RegistryObject<Block> Titanium_block = registerBlock("titaniumblock",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), TutorialModCreativeTab.Tutorial_Tab);
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(0.5f).requiresCorrectToolForDrops()), TutorialModCreativeTab.Tutorial_Tab);
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block, CreativeModeTab tab){
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

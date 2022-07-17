@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "tutorialmod:obsidianingot"
+      "item": "tutorialmod:titaniumblock"
     }
   },
   "result": {
-    "item": "tutorialmod:titaniumingot"
+    "item": "tutorialmod:titaniumblock"
   }
 }
